@@ -2,6 +2,7 @@
 
 .home-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -16,4 +17,19 @@
   font-weight: bold;
   line-height: 1.5;
   color: white;
+}
+
+.home-button {
+  background-color: rgb(91, 178, 193);
+  color: white;
+  border: none;
+  border-radius: 80px;
+  padding: 17px 31px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.home-button:hover {
+  background-color: rgba(2, 106, 150, 0.9);
 }
