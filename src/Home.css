@@ -30,6 +30,11 @@
   transition: background-color 0.3s;
 }
 
+.home-button a {
+  color: white;
+  text-decoration: none;
+}
+
 .home-button:hover {
   background-color: rgba(2, 106, 150, 0.9);
 }
