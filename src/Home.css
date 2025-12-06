@@ -1,0 +1,19 @@
+/* Home.css */
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://images.pexels.com/videos/5976346/baltic-sea-bath-bathe-bathing-5976346.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200");
+  background-size: cover;
+  background-position: center;
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
