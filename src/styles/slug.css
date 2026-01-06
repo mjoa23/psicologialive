@@ -1647,7 +1647,7 @@
 .form__button--invisible[data-v-ca2c4eaa],
 .form__control--invisible[data-v-ca2c4eaa] {
   pointer-events: none;
-  opacity: 0;
+  
   transition: opacity 0.15s;
 }
 
@@ -4284,7 +4284,7 @@
 }
 
 .product-list-item__button-wrapper--with-hover[data-v-c78662db] {
-  opacity: 0;
+  
 }
 
 .product-list-item__button[data-v-c78662db] {
@@ -4995,7 +4995,7 @@
 
 .block-product-list__scroll-to-top--hidden[data-v-dc234f1c] {
   visibility: hidden;
-  opacity: 0;
+  
 }
 
 .category-list[data-v-dc234f1c] {
@@ -6310,7 +6310,7 @@
 .accordion-enter[data-v-013f5865],
 .accordion-leave-to[data-v-013f5865] {
   height: 0 !important;
-  opacity: 0;
+  
 }
 
 [data-v-a502439a]:root {
@@ -7265,7 +7265,7 @@
 
 .v-enter-from,
 .v-leave-to {
-  opacity: 0;
+  
 }
 
 [data-v-1b97b2f6]:root {
@@ -8056,7 +8056,7 @@
   width: 100%;
   height: 100%;
   background: #1d1e2033;
-  opacity: 0;
+  
   transition: opacity 0.2s ease;
 }
 
@@ -8067,7 +8067,7 @@
 
 @media screen and (max-width: 920px) {
   .site-drawer-overlay--open[data-v-a8ee4da2] {
-    opacity: 0;
+    
   }
 }
 
@@ -10071,18 +10071,18 @@
 }
 
 .calendar-next-enter-from {
-  opacity: 0;
+  
   transform: translate(var(--dp-transition-length));
 }
 
 .calendar-next-leave-to,
 .calendar-prev-enter-from {
-  opacity: 0;
+  
   transform: translate(calc(var(--dp-transition-length) * -1));
 }
 
 .calendar-prev-leave-to {
-  opacity: 0;
+  
   transform: translate(var(--dp-transition-length));
 }
 
@@ -10101,7 +10101,7 @@
 .dp-menu-appear-top-leave-to,
 .dp-slide-down-leave-to,
 .dp-slide-up-enter-from {
-  opacity: 0;
+  
   transform: translateY(var(--dp-transition-length));
 }
 
@@ -10109,7 +10109,7 @@
 .dp-menu-appear-bottom-leave-to,
 .dp-slide-down-enter-from,
 .dp-slide-up-leave-to {
-  opacity: 0;
+  
   transform: translateY(calc(var(--dp-transition-length) * -1));
 }
 
@@ -10786,7 +10786,7 @@
 
 .fade-enter[data-v-42696a62],
 .fade-leave-to[data-v-42696a62] {
-  opacity: 0;
+  
 }
 
 [data-v-130f2872]:root {
@@ -11434,7 +11434,7 @@
 
 .burger--open .burger__meat[data-v-ccf9b649] {
   width: 0%;
-  opacity: 0;
+  
 }
 
 .background {
@@ -11783,7 +11783,7 @@
   position: absolute;
   width: 0;
   height: 0;
-  opacity: 0;
+  
 }
 
 @media screen and (max-width: 920px) {
@@ -12722,7 +12722,7 @@ iframe {
 }
 
 .transition.transition--fade:not(.transition--root-hidden) {
-  opacity: 0;
+  
   transition-property: opacity;
 }
 
@@ -12739,7 +12739,7 @@ iframe {
   [data-animation-role="block-element"],
 .transition.transition--fade.transition--root-hidden
   [data-animation-role="image"] {
-  opacity: 0;
+  
   transition-property: opacity;
 }
 
@@ -12754,7 +12754,7 @@ iframe {
 }
 
 .transition.transition--slide:not(.transition--root-hidden) {
-  opacity: 0;
+  
   transition-property: transform, opacity;
   transform: translateY(20%);
 }
@@ -12773,7 +12773,7 @@ iframe {
   [data-animation-role="block-element"],
 .transition.transition--slide.transition--root-hidden
   [data-animation-role="image"] {
-  opacity: 0;
+  
   transition-property: transform, opacity;
   transform: translateY(20%);
 }
@@ -12790,7 +12790,7 @@ iframe {
 }
 
 .transition.transition--scale:not(.transition--root-hidden) {
-  opacity: 0;
+  
   transition-property: transform, opacity;
   transform: scale(0.9);
 }
@@ -12809,7 +12809,7 @@ iframe {
   [data-animation-role="block-element"],
 .transition.transition--scale.transition--root-hidden
   [data-animation-role="image"] {
-  opacity: 0;
+  
   transition-property: transform, opacity;
   transform: scale(0.9);
 }
@@ -12834,7 +12834,7 @@ iframe {
 
 .fade-enter-from,
 .fade-leave-active {
-  opacity: 0;
+  
 }
 
 .slide-right-enter-active,
@@ -12848,13 +12848,13 @@ iframe {
 
 .slide-right-enter-from,
 .slide-left-leave-active {
-  opacity: 0;
+  
   transform: translate(20%);
 }
 
 .slide-right-leave-active,
 .slide-left-enter-from {
-  opacity: 0;
+  
   transform: translate(-20%);
 }
 
@@ -12869,13 +12869,13 @@ iframe {
 
 .slide-top-enter-from,
 .slide-bottom-leave-active {
-  opacity: 0;
+  
   transform: translateY(20%);
 }
 
 .slide-top-leave-active,
 .slide-bottom-enter-from {
-  opacity: 0;
+  
   transform: translateY(-20%);
 }
 
@@ -12892,7 +12892,7 @@ iframe {
 .slide-bottom-to-top-leave-active,
 .slide-top-to-bottom-leave-active,
 .slide-bottom-to-top-enter-from {
-  opacity: 0;
+  
   transform: translateY(-20%);
 }
 
